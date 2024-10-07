@@ -16,5 +16,6 @@ struct classDef{
 	void fixConstructDesconstructorTypes();
 	std::string genCHeader() const;
 	std::string genCppSource(const std::string& CHeaderName, const std::vector<std::string>& headersToInclude = {}) const;
+	std::string genJsonDetail() const;
 };
 
